@@ -1,0 +1,22 @@
+{
+  "audio.wav": {
+    "size_bytes": 16044,
+    "sha256": "8033c9c459b80d3616131baaf9dd0a698a98cf3d307f013188093586c4f2812e"
+  },
+  "image.png": {
+    "size_bytes": 36865,
+    "sha256": "8c910896876a66de08b9d16ec03a683994106ffbda817d5c79afa818e6c8b8b1"
+  },
+  "large.txt": {
+    "size_bytes": 1048576,
+    "sha256": "3fd91a71ea6aae1e7ee76b78c9bac5ba55b8acaa7c53a11a754cbae9c9638e16"
+  },
+  "medium.txt": {
+    "size_bytes": 262144,
+    "sha256": "0642b08ca070e6354e27f5f97b12156c60822cda2ca25f5ff7923868353a0e30"
+  },
+  "small.txt": {
+    "size_bytes": 8192,
+    "sha256": "1f5c4636d75566e26ac12208463c194aee9dfde141870115b17062584be60348"
+  }
+}

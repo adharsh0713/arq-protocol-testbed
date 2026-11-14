@@ -1,0 +1,46 @@
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local tooling
+venv/
+.venv/
+env/
+.vscode/
+.idea/
+.mypy_cache/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.part
+
+# Experiment outputs are reproducible from the committed fixture generator.
+data/results/*
+!data/results/.gitkeep
+!data/results/README.md
+!data/results/experiment_results.csv
+!data/results/aggregated_results.csv
+!data/results/fault_rate_comparison.csv
+# Per-run JSON, logs and received files remain local artifacts.
+data/results/runs/
+
+# Deterministic generated test fixtures are included in the repository archive.
+
+# Plots are generated from a matching results CSV; only promote verified M4 figures.
+docs/graphs/*.png
+!docs/graphs/*.png
+!docs/graphs/plots_manifest.json

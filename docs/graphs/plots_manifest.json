@@ -1,0 +1,15 @@
+{
+  "source":"experiment_results.csv",
+  "verified_rows_used":807,
+  "plots":[
+    "completion_time_vs_loss.png",
+    "throughput_vs_loss.png",
+    "retransmissions_vs_loss.png",
+    "throughput_vs_window.png",
+    "completion_time_under_reordering.png",
+    "three_protocol_comparison.png",
+    "completion_time_variability.png",
+    "timeout_sensitivity.png",
+    "combined_fault_success_rate.png"
+  ]
+}
